@@ -1,0 +1,28 @@
+{
+  "name": "supertypes",
+  "version": "1.0.0",
+  "description": "All SuperCool TS types in one SuperPackage!",
+  "keywords": [
+    "Types"
+  ],
+  "homepage": "https://github.com/kafuexe/SuperTypes#readme",
+  "bugs": {
+    "url": "https://github.com/kafuexe/SuperTypes/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kafuexe/SuperTypes.git"
+  },
+  "license": "MIT",
+  "author": "kafu",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
