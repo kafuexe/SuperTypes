@@ -33,8 +33,6 @@ export type AsyncAction<P1 = never, P2 = never, P3 = never> = Promisify<
 export type Nullable<T> = T | null;
 // returns an Undefinable type
 export type Undefinable<T> = T | undefined;
-// returns a type that must be defined
-export type Definable<T> = Exclude<T, null | undefined>;
 // returns the type of the values of an object
 export type ValueOf<T> = T[keyof T];
 // returns a type that has all keys of T Showing
